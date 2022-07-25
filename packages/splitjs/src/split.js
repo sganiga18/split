@@ -259,7 +259,7 @@ const Split = (idsOption, options = {}) => {
         b.size = percentage - (offset / this.size) * percentage
 
         setElementSize(a.element, a.size, this[aGutterSize], a.i)
-        setElementSize(b.element, b.size, this[bGutterSize], b.i)
+        //setElementSize(b.element, b.size, this[bGutterSize], b.i)
     }
 
     // drag, where all the magic happens. The logic is really quite simple:
